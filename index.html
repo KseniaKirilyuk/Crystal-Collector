@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Crystal-Collector</title>
+	
+	 <!-- Added a link to Bootstrap-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/style.css">
+  <!--Added fonts-->
+  <link href="https://fonts.googleapis.com/css?family=Amaranth|Ultra" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+</head>
+<body>
+
+
+	<div class="introduction"><h1>It is Crystal shining time</h1></div>
+	<p class="rools"><span>Crystal Collector rools! </span><br>
+	You will be given a random number at the start of the game.<br>
+	There are four crystals below. By clicking on a crystal you will ass a specific amount of points to your total score.<br>
+	You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.<br>
+The value of each crystal is hidden from you until you click on ut.<br>
+Each time when the game starts, the game will change the values of each crystal.</p>
+	<section class="gem_container">
+		<div class="wrapper">
+		<h1 id="computer_choise_number"></h1>
+		<div id="crystal_container">
+			<button id="gemR" class="crystal"></button>
+			<button id="gemG" class="crystal"></button>
+			<button id="gemY"class="crystal"></button>
+			<button id="gemB" class="crystal"></button>
+			<audio id="audio" src="assets/sound/ice2.mp3" type="audio/mpeg"></audio>
+
+		</div>
+		<div id="user_result"></div>
+		<div id="win_loss_tracker">
+			<div id="win">Wins: </div>
+			<div id="loss">Loss: </div>
+		</div>
+		</div>
+	</section>
+</body>
+</html>
+
+<script type="text/javascript" src="assets/js.js"></script>
