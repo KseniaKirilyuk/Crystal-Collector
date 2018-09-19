@@ -24,8 +24,8 @@ $(document).ready(function(){
 		startGame();
 
 	$crystalNumber.on("click", function(){
-		//var audio = $("#audio");
-		//audio.play();
+		var audio = $("#audio");
+		audio[0].play();
 		var crystalValue = ($(this).attr("data-value"));
 		crystalValue = parseInt(crystalValue);
 		counter +=crystalValue;

@@ -88,6 +88,27 @@ button#gemB{ background-image: url(img/gemB.png);}
 button#gemG{ background-image: url(img/gemG.png);}
 
 
+/**media queries**/
+@media only screen and (max-width: 600px) {
+    .introduction h1 {
+     font-size: 49px;
+    transform: translateZ(-1px);
+    }
+    #crystal_container {
+    margin-bottom: 30px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+button {
+    margin: 20px;
+  }
+}
+
 
 
 
